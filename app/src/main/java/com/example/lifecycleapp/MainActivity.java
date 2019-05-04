@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,"onDestroy Called",Toast.LENGTH_SHORT).show();
         Log.v(TAG,"onDestroy Called");
 
+        Toast.makeText(getApplicationContext(),"Hello",Toast.LENGTH_LONG).show();
+
     }
 
 }
